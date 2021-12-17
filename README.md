@@ -7,6 +7,10 @@ Current hooks in this package are:
 
 useArray
 
+Prop | Initial value
+--- | ---
+initialArray | []
+
 Return value| Parameters | Description
 --- | --- | ---
 push | (element:any) | Adds an element to the end of the array
@@ -18,6 +22,17 @@ replace | (item:any,index:number) | Replaces an element on a certain index
 setArray | ([]) | Method for updating the array, if it's not present on the list
 removeDoubleValues | () | Removes all of the double values ex. [1,2,2,3] returns [1,2,3]
 array | value | Just the array value
+
+useToggle
+
+Prop | Initial value
+--- | ---
+initialState | false
+
+Return value | Description
+--- | ---
+state | True or false value
+toggle | Function for toggling ste state
 
 ## Update
 
