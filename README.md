@@ -6,7 +6,7 @@ This package contains hooks that were mainly made for react-native, but they als
 Current hooks in this package are:
 
 Hook name | Return values
---- | --- | --- 
+--- | ---
 useArray | 200
 
 Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
