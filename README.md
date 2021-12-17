@@ -14,13 +14,13 @@ initialArray | []
 Return value| Parameters | Description
 --- | --- | ---
 push | (element:any) | Adds an element to the end of the array
-pop | () | Removes the last item in the array and returns it
-clear | () | Removes all of the elements from the array
+pop | None | Removes the last item in the array and returns it
+clear | None | Removes all of the elements from the array
 remove | (index:number) | Removes item on a certain index
 insert | (item:any,index:number) | Inserts an element on a certain index
 replace | (item:any,index:number) | Replaces an element on a certain index
 setArray | ([]) | Method for updating the array, if it's not present on the list
-removeDoubleValues | () | Removes all of the double values ex. [1,2,2,3] returns [1,2,3]
+removeDoubleValues | None | Removes all of the double values ex. [1,2,2,3] returns [1,2,3]
 array | value | Just the array value
 
 #### useToggle
