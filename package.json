@@ -1,0 +1,26 @@
+{
+  "name": "helper-hooks",
+  "version": "1.0.3",
+  "description": "Helpful hooks for react/react native projects",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haris Handzic",
+  "license": "ISC",
+  "keywords": [
+    "react-hooks",
+    "react-native",
+    "react",
+    "utils",
+    "helper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haris523/helper-hooks.git"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.3.5"
+  }
+}
