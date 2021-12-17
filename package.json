@@ -1,6 +1,6 @@
 {
   "name": "helper-hooks",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Helpful hooks for react/react native projects",
   "main": "index.ts",
   "scripts": {
