@@ -5,7 +5,7 @@
 This package contains hooks that were mainly made for react-native, but they also might work for react. 
 Current hooks in this package are:
 
-useArray
+####useArray
 
 Prop | Initial value
 --- | ---
@@ -23,7 +23,7 @@ setArray | ([]) | Method for updating the array, if it's not present on the list
 removeDoubleValues | () | Removes all of the double values ex. [1,2,2,3] returns [1,2,3]
 array | value | Just the array value
 
-useToggle
+####useToggle
 
 Prop | Initial value
 --- | ---
