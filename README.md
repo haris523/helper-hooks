@@ -7,13 +7,9 @@ Current hooks in this package are:
 
 #### useArray
 
-&nbsp;
-
 | Prop         | Initial value |
 | ------------ | ------------- |
 | initialArray | []            |
-
-&nbsp;
 
 | Return value       | Parameters              | Description                                                    |
 | ------------------ | ----------------------- | -------------------------------------------------------------- |
@@ -26,8 +22,6 @@ Current hooks in this package are:
 | setArray           | ([])                    | Method for updating the array, if it's not present on the list |
 | removeDoubleValues | None                    | Removes all of the double values ex. [1,2,2,3] returns [1,2,3] |
 | array              | value                   | Just the array value                                           |
-
-&nbsp;
 
 #### useToggle
 
