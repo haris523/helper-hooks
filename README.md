@@ -7,9 +7,13 @@ Current hooks in this package are:
 
 #### useArray
 
+Values sent to hook
+
 | Prop         | Initial value |
 | ------------ | ------------- |
 | initialArray | []            |
+
+Values returned from hook
 
 | Return value       | Parameters              | Description                                                    |
 | ------------------ | ----------------------- | -------------------------------------------------------------- |
@@ -25,20 +29,18 @@ Current hooks in this package are:
 
 #### useToggle
 
-&nbsp;
+Values sent to hook
 
 | Prop         | Initial value |
 | ------------ | ------------- |
 | initialState | false         |
 
-&nbsp;
+Values returned from hook
 
 | Return value | Description                     |
 | ------------ | ------------------------------- |
 | state        | True or false value             |
 | toggle       | Function for toggling ste state |
-
-&nbsp;
 
 ## Update
 
