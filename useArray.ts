@@ -18,9 +18,9 @@ const useArray = (initialArray = []) => {
     setArray((oldArr) => oldArr.filter((_, i) => i !== index));
   };
   const pop = () => {
-    const arr = [...array];
-    const removedItem = arr.pop();
-    setArray([...arr]);
+    if (array.length == 0) return undefined;
+    const removedItem = array[array.length - 1];
+    setArray([...array.slice(0, array.length - 1)]);
     return removedItem;
   };
   const insert = (item: any, index: number) => {
